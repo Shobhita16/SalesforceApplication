@@ -1,18 +1,29 @@
-# Salesforce DX Project: Next Steps
+Dreams World Properties integrates Salesforce to streamline customer interactions. Website engagement triggers automated record creation in Salesforce, capturing customer details and preferences. Salesforce categorizes users as approved or non-approved, offering tailored property selections to approved users. This enhances user experience and efficiency, providing personalized recommendations and broader listings. Seamless integration optimizes operations, improving customer engagement and facilitating growth in the real estate market.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Milestone 1 :- Create a Jotform and integrate it with the org to create a record of customers automatically.
 
-## How Do You Plan to Deploy Your Changes?
+Create Objects from Spreadsheet-Directly Creating Objects from Spreadsheet in Salesforce.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Integrate Jotform with Salesforce Platform-In this Milestone we are going to integrate jotform with Salesforce.
 
-## Configure Your Salesforce DX Project
+Create Roles-Create Roles as per business requirenment.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Create a Property Details App-An App where the objects will be displayed.
 
-## Read All About It
+Create Profiles-Create profiles as per business requirement .
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Create a Check Box field on user-Create Field on the User as per the business requirement.
+
+Create Users:Create three different users with three different Roles and profiles as we have mentioned above.
+
+Create an Approval Process for Property Object-An Approval process to approve or reject the records as according.
+
+Create a Record trigger flow to submit the Approval Process Automatically:A flow that can submit the records directly for approval.
+
+Create an App Page:Create an App Page on the Property details  Object named as “Search Your Property”.
+
+Create a LWC Component:Create an LWC Component for the customers so that only verified customers can access the verified properties and non Verified customers can access non verified properties, and deploy it on “Search your Property Page” .
+
+Drag this Component to your App Page:Adding the Component to your Page.
+
+Give Access of Apex Classes to Profiles:The Apex Class has a Security, Enable the security for the profiles that needs to access this class.
